@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Jaxson – Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+  <meta name="description" content="Jaxson – Chess Grandmaster & Legal Innovation Advocate | Personal Portfolio">
+</head>
+<body>
+  <!-- Parallax background -->
+  <div class="bg-parallax"></div>
+  <nav class="navbar">
+    <div class="logo">Jaxson</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About Me</a></li>
+      <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+      <li><a href="#contact" class="nav-link">Contact Me</a></li>
+    </ul>
+    <button class="btn contact-btn">Contact Me</button>
+    <button class="toggle-mode" id="toggleMode" aria-label="Toggle dark mode">
+      <span class="mode-sun">&#9728;</span>
+      <span class="mode-moon">&#9790;</span>
+    </button>
+    <div class="nav-mobile-menu" id="mobileMenuBtn">&#9776;</div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-left fade-in-up">
+        <div class="profile-photo-outer rotating-border">
+          <img src="profile-placeholder.jpg" alt="Profile photo" class="profile-photo" />
+        </div>
+      </div>
+      <div class="hero-right fade-in-up-delay">
+        <h1>Jaxson</h1>
+        <h2>Grandmaster in Chess & Advocate of Legal Innovation</h2>
+        <p class="tagline">
+          “I blend strategy and creativity to master the board—both in chess and in life.”
+        </p>
+        <a href="cv-placeholder.pdf" class="btn download-cv-btn" download>
+          Download CV
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="about section fade-in-up">
+      <h2>About Me</h2>
+      <p>
+        I’m a chess grandmaster with a passion for strategic thinking and all things legal. I love creating clean, legal solutions and sharing my journey.
+      </p>
+    </section>
+
+    <section id="portfolio" class="portfolio section fade-in-up">
+      <h2>Portfolio</h2>
+      <div class="portfolio-cards">
+        <div class="portfolio-card">
+          <h3>Chess Olympiad Gold</h3>
+          <p>Led the national team to victory with a perfect score in 2023.</p>
+        </div>
+        <div class="portfolio-card">
+          <h3>LegalTech SaaS Founder</h3>
+          <p>Co-founded a platform automating legal research for startups.</p>
+        </div>
+        <div class="portfolio-card">
+          <h3>Chess Blog: “The Endgame Mindset”</h3>
+          <p>Over 100K readers learning strategic moves and life lessons.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section fade-in-up">
+      <h2>Contact Me</h2>
+      <form class="contact-form" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <input type="text" name="name" placeholder="Your Name" required autocomplete="off">
+        <input type="email" name="email" placeholder="Your Email" required autocomplete="off">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social-icons">
+        <a href="https://github.com/" target="_blank" title="GitHub" rel="noopener">
+          <img src="github.svg" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn" rel="noopener">
+          <img src="linkedin.svg" alt="LinkedIn">
+        </a>
+        <a href="https://www.chess.com/" target="_blank" title="Chess.com" rel="noopener">
+          <img src="chess.svg" alt="Chess.com">
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2025 Jaxson. All rights reserved.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
