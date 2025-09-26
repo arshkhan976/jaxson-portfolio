@@ -1,0 +1,1 @@
+{ "name": "jaxson-portfolio", "version": "1.0.0", "private": true, "scripts": { "dev": "vite", "build": "vite build", "serve": "vite preview" }, "dependencies": { "react": "^17.0.2", "react-dom": "^17.0.2", "framer-motion": "^4.1.17", "tailwindcss": "^2.2.19", "postcss": "^8.4.6", "vite": "^2.6.14" }, "devDependencies": { "typescript": "^4.4.3" } }
